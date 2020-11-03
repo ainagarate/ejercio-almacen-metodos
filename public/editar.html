@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select onchange="manageChange(event)" >
+        <option value="armarios">Armarios</option>
+        <option value="sillas">Sillas</option>
+        <option value="mesas">Mesas</option>
+    </select>
+
+    <input type="text" id="referencia" placeholder="Escribe el nombre de un producto actual">
+    <input type="text" id="nuevoNombre" placeholder="Escribe el nombre de un nuevo producto">
+    <input type="text" id="nuevaImg" placeholder="añade una nueva imagen">
+    <input type="text" id="nuevoPrecio" placeholder="añade un nuevo precio">
+    <input type="text" id="nuevaDescripcion" placeholder="añade una nueva descripción">
+
+    <button type="submit" onclick="editar()">Editar</button>
+    <button type="submit" onclick="borrar()">Borrar</button>
+
+    
+ 
+    
+<div id="div1"></div>
+    <script src="./index.js"></script>
+</body>
+</html>
